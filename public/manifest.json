@@ -1,0 +1,12 @@
+{
+  "name": "MyG Express",
+  "short_name": "MyG Express",
+  "description": "Logística y entregas en la Selva Central del Perú",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2db84b",
+  "icons": [
+    { "src": "/favicon.ico", "sizes": "any", "type": "image/x-icon" }
+  ]
+}

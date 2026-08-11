@@ -1,0 +1,85 @@
+{
+  "MG-882941": {
+    "code": "MG-882941",
+    "status": "EN CAMINO",
+    "summary": "Estado en tiempo real",
+    "updatedAt": "Hoy, 10:45 AM",
+    "destination": "La Merced",
+    "source": "demo",
+    "steps": [
+      { "title": "Sede Central - Lima", "description": "Procesado para envio - 10:45 AM", "done": true },
+      { "title": "Ruta hacia Selva Central", "description": "Unidad en transito hacia La Merced", "done": true },
+      { "title": "Entrega en Destino", "description": "Estimado hoy - Selva Central", "done": false }
+    ]
+  },
+  "MG-241900": {
+    "code": "MG-241900",
+    "status": "RECIBIDO",
+    "summary": "Paquete registrado",
+    "updatedAt": "Hoy, 09:20 AM",
+    "destination": "Satipo",
+    "source": "demo",
+    "steps": [
+      { "title": "Sede Satipo", "description": "Paquete recibido y registrado", "done": true },
+      { "title": "Verificacion", "description": "Pendiente de revision interna", "done": false },
+      { "title": "Reparto a domicilio", "description": "Aun sin salida programada", "done": false }
+    ]
+  },
+  "MG-777120": {
+    "code": "MG-777120",
+    "status": "ENTREGADO",
+    "summary": "Entrega completada",
+    "updatedAt": "Ayer, 05:35 PM",
+    "destination": "Oxapampa",
+    "source": "demo",
+    "steps": [
+      { "title": "Sede Oxapampa", "description": "Paquete recibido en sede", "done": true },
+      { "title": "En reparto", "description": "Motorizado asignado", "done": true },
+      { "title": "Entregado en domicilio", "description": "Recibido por el cliente - 05:35 PM", "done": true }
+    ]
+  },
+  "WYB463947384": {
+    "code": "WYB463947384",
+    "status": "SALIO A ENTREGARSE",
+    "summary": "Ultima milla",
+    "updatedAt": "Hoy, 02:15 PM",
+    "destination": "La Merced",
+    "source": "demo",
+    "courier": "Correa Hinostroza Jhoyner Alexander",
+    "vehicle": "3807-0W",
+    "operator": "Urbano Express",
+    "estimatedDelivery": "Hoy",
+    "steps": [
+      { "title": "Sede Central - Lima", "description": "Procesado para envio - 08:30 AM", "done": true },
+      { "title": "Arribo a Selva Central", "description": "Llegada a sede La Merced - 01:45 PM", "done": true },
+      { "title": "En reparto", "description": "Asignado a motorizado - 02:15 PM", "done": true },
+      { "title": "Entrega en Destino", "description": "Estimado hoy - La Merced", "done": false }
+    ]
+  },
+  "MYG-884712": {
+    "code": "MYG-884712",
+    "status": "EN CAMINO",
+    "summary": "En ruta",
+    "updatedAt": "Hoy, 11:30 AM",
+    "destination": "Satipo",
+    "source": "demo",
+    "steps": [
+      { "title": "Sede Central - Lima", "description": "Procesado para envio - 06:00 AM", "done": true },
+      { "title": "Ruta hacia Satipo", "description": "Unidad en transito", "done": true },
+      { "title": "Entrega en Destino", "description": "Estimado manana - Satipo", "done": false }
+    ]
+  },
+  "MYG-551903": {
+    "code": "MYG-551903",
+    "status": "ENTREGADO",
+    "summary": "Entrega completada",
+    "updatedAt": "Ayer, 04:20 PM",
+    "destination": "Oxapampa",
+    "source": "demo",
+    "steps": [
+      { "title": "Sede Oxapampa", "description": "Paquete recibido en sede", "done": true },
+      { "title": "En reparto", "description": "Motorizado asignado - 03:00 PM", "done": true },
+      { "title": "Entregado en domicilio", "description": "Recibido por el cliente - 04:20 PM", "done": true }
+    ]
+  }
+}
