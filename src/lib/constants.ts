@@ -32,6 +32,7 @@ export const SITE = {
   description:
     "Recibimos tus compras online y las entregamos directamente en tu casa. Servicio de logística y entregas en la Selva Central del Perú.",
   url: "https://myg-express.com",
+  appUrl: "https://app.myg-express.com",
   locale: "es_PE",
   region: "Selva Central del Perú",
   phone: "+51 991 776 931",

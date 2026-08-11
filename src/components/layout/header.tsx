@@ -163,14 +163,12 @@ export function Header({ dark = false }: HeaderProps) {
           </nav>
 
           <Button
+            asChild
             variant={dark ? "default" : "dark"}
             size="sm"
             className={cn(dark && "bg-[#2db84b] hover:bg-[#22c55e] text-white font-extrabold")}
-            onClick={() => {
-              document.getElementById("contacto")?.scrollIntoView({ behavior: "smooth" });
-            }}
           >
-            Ingresar
+            <a href={SITE.appUrl}>Ingresar</a>
           </Button>
         </div>
       </header>
@@ -289,15 +287,13 @@ export function Header({ dark = false }: HeaderProps) {
 
                 {/* Botón Ingresar ocultado de arriba y ubicado dentro de las 3 rayitas */}
                 <li className="pt-2">
-                  <button
-                    onClick={() => {
-                      closeMobile();
-                      document.getElementById("contacto")?.scrollIntoView({ behavior: "smooth" });
-                    }}
+                  <a
+                    href={SITE.appUrl}
+                    onClick={closeMobile}
                     className="flex w-full items-center justify-center gap-2 rounded-xl bg-[#090d16] py-3 text-sm font-extrabold text-white shadow-md active:scale-98"
                   >
                     <span>Ingresar</span>
-                  </button>
+                  </a>
                 </li>
 
                 <li className="pt-1">
@@ -319,5 +315,4 @@ export function Header({ dark = false }: HeaderProps) {
     </>
   );
 }
-
 
