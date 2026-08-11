@@ -212,9 +212,13 @@ export function ServicesSection() {
             >
               {/* Imagen del camión de fondo ampliada y desplazada un poco más arriba */}
               <div className="relative w-full overflow-visible flex justify-end scale-[1.08] sm:scale-[1.12] lg:scale-[1.16] xl:scale-[1.20] origin-top-right -mt-4 sm:-mt-6 lg:-mt-8 xl:-mt-12 -translate-y-2 sm:-translate-y-4 lg:-translate-y-6">
-                <img
+                <Image
                   src="/assets/servicios-camion.jpg"
                   alt="Camión MyG Express"
+                  width={1024}
+                  height={682}
+                  sizes="(max-width: 1280px) 55vw, 920px"
+                  quality={70}
                   className="h-auto w-full object-contain pointer-events-none select-none ml-auto"
                   style={{
                     maskImage:

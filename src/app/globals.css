@@ -348,4 +348,9 @@
     padding-top: 1.25rem !important;
   }
 }
-
+@supports (content-visibility: auto) {
+  .deferred-section {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 800px;
+  }
+}

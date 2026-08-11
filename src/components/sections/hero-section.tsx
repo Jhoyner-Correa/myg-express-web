@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { PingDot } from "@/components/shared/ping-dot";
@@ -54,9 +55,12 @@ export function HeroSection({
       {/* ── MOBILE BACKGROUND LAYER (< sm: DEGRADADO PURO - BORDE INFERIOR TOTALMENTE DESVANECIDO) ── */}
       <div className="pointer-events-none absolute top-14 sm:hidden inset-x-0 z-0 h-[640px] w-full overflow-hidden flex items-start justify-end translate-y-4 opacity-100">
         <div className="relative h-full w-full flex items-start justify-end">
-          <img
-            src="/assets/hero-bg-speed.jpg?v=5"
+          <Image
+            src="/assets/hero-bg-speed.jpg"
             alt="Almacén de Logística MyG Express Selva Central 8K Master"
+            fill
+            sizes="100vw"
+            quality={70}
             className="h-full w-full object-contain object-right-top filter brightness-[1.03] contrast-[1.03] translate-x-56 sm:translate-x-0 scale-[1.52] origin-top-right"
             style={{
               maskImage:
@@ -82,9 +86,12 @@ export function HeroSection({
         className="pointer-events-none absolute top-0 right-0 z-0 hidden sm:flex h-[680px] md:h-[780px] lg:h-[820px] w-full md:w-[73%] lg:w-[70%] overflow-hidden justify-end translate-y-8 md:translate-y-20 opacity-100"
       >
         <div className="relative h-full w-full flex items-center justify-end">
-          <img
-            src="/assets/hero-bg-speed.jpg?v=5"
+          <Image
+            src="/assets/hero-bg-speed.jpg"
             alt="Almacén de Logística MyG Express Selva Central 8K Master"
+            fill
+            sizes="(max-width: 768px) 100vw, 73vw"
+            quality={70}
             className="h-full w-full object-contain object-right-top filter brightness-[1.03] contrast-[1.03]"
             style={{
               maskImage:
@@ -144,9 +151,14 @@ export function HeroSection({
 
             {/* Personnel photo standing behind (SIEMPRE VISIBLE AL 100%) */}
             <div className="relative z-0 pointer-events-none flex justify-end items-end h-full">
-              <img
+              <Image
                 src="/assets/hero-personas.png"
                 alt="Equipo de logística MyG Express"
+                width={1638}
+                height={2048}
+                sizes="40vw"
+                quality={75}
+                priority
                 className="h-auto max-h-[760px] w-full object-contain object-bottom scale-[2.4] -translate-x-16 translate-y-72"
                 style={{
                   filter: "drop-shadow(0 12px 20px rgba(0,0,0,.14))",
@@ -324,9 +336,13 @@ export function HeroSection({
             >
               <div className="pointer-events-none absolute bottom-12 left-1/2 -translate-x-1/2 h-80 w-80 rounded-full bg-[#2db84b]/15 blur-3xl transition-opacity duration-500 group-hover:bg-[#2db84b]/25" />
 
-              <motion.img
+              <Image
                 src="/assets/hero-personas.png"
                 alt="Equipo de logística MyG Express"
+                width={1638}
+                height={2048}
+                sizes="(max-width: 1024px) 50vw, 700px"
+                quality={75}
                 className="relative z-10 h-auto max-h-[780px] w-full max-w-[700px] scale-110 md:scale-115 lg:scale-105 object-contain object-bottom opacity-100"
                 style={{
                   filter: "drop-shadow(0 20px 25px rgba(0,0,0,.15))",

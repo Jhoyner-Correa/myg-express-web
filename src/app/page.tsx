@@ -93,6 +93,7 @@ export default function HomePage() {
         whileInView={{ opacity: 1, y: 0, scale: 1 }}
         viewport={{ once: true, margin: "-60px" }}
         transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
+        className="deferred-section"
       >
         <BranchesSection />
       </motion.div>
@@ -102,6 +103,7 @@ export default function HomePage() {
         whileInView={{ opacity: 1, y: 0, scale: 1 }}
         viewport={{ once: true, margin: "-60px" }}
         transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
+        className="deferred-section"
       >
         <ServicesSection />
       </motion.div>
@@ -111,6 +113,7 @@ export default function HomePage() {
         whileInView={{ opacity: 1, y: 0, scale: 1 }}
         viewport={{ once: true, margin: "-60px" }}
         transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
+        className="deferred-section"
       >
         <WhyUsSection />
       </motion.div>
@@ -120,6 +123,7 @@ export default function HomePage() {
         whileInView={{ opacity: 1, y: 0, scale: 1 }}
         viewport={{ once: true, margin: "-60px" }}
         transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
+        className="deferred-section"
       >
         <ProcessSection />
       </motion.div>
@@ -129,6 +133,7 @@ export default function HomePage() {
         whileInView={{ opacity: 1, y: 0, scale: 1 }}
         viewport={{ once: true, margin: "-60px" }}
         transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
+        className="deferred-section"
       >
         <TestimonialsSection />
       </motion.div>
@@ -138,6 +143,7 @@ export default function HomePage() {
         whileInView={{ opacity: 1, y: 0, scale: 1 }}
         viewport={{ once: true, margin: "-60px" }}
         transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
+        className="deferred-section"
       >
         <ContactSection />
       </motion.div>

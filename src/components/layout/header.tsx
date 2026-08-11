@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { Menu, X, Headset } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -101,9 +102,14 @@ export function Header({ dark = false }: HeaderProps) {
             aria-label={SITE.name}
             className="flex h-[78px] w-[78px] flex-shrink-0 items-center justify-center transition-transform hover:-translate-y-0.5 cursor-pointer"
           >
-            <img
+            <Image
               src="/assets/logo-myg.png"
               alt={SITE.name}
+              width={78}
+              height={78}
+              sizes="78px"
+              quality={75}
+              priority
               className="h-full w-full object-contain"
             />
           </a>
@@ -186,9 +192,14 @@ export function Header({ dark = false }: HeaderProps) {
             aria-label={SITE.name}
             className="flex h-9.5 w-9.5 flex-shrink-0 items-center justify-center cursor-pointer"
           >
-            <img
+            <Image
               src="/assets/logo-myg.png"
               alt={SITE.name}
+              width={38}
+              height={38}
+              sizes="38px"
+              quality={75}
+              priority
               className="h-full w-full object-contain"
             />
           </a>
@@ -315,4 +326,3 @@ export function Header({ dark = false }: HeaderProps) {
     </>
   );
 }
-
