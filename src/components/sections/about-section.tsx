@@ -215,8 +215,8 @@ export function AboutSection() {
         </h2>
 
         <p className="mx-auto mt-3 sm:mt-4 max-w-2xl text-xs sm:text-base leading-relaxed text-slate-600 font-medium">
-          MyG Express nació para resolver un problema real: las compras online no llegaban a la Selva Central.
-          Hoy somos el puente entre las tiendas de todo el Perú y tu hogar en La Merced, Satipo y Oxapampa.
+          MyG Express nació con el propósito de ofrecer soluciones logísticas ágiles, seguras y cercanas en la Selva Central.
+          Hoy conectamos a personas y negocios con destinos de todo el Perú, brindando atención confiable en La Merced, Satipo y Oxapampa.
         </p>
       </motion.div>
 
