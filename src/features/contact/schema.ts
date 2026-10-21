@@ -10,7 +10,7 @@ export const contactSchema = z.object({
     .min(7, "Ingresa un número válido")
     .max(20, "Número demasiado largo")
     .regex(/^[\d\s+\-()]+$/, "Ingresa un número de teléfono válido"),
-  branch: z.enum(["", "La Merced", "Satipo", "Oxapampa"]).optional(),
+  branch: z.enum(["", "La Merced", "Satipo", "Oxapampa", "Huancayo"]).optional(),
   message: z
     .string()
     .min(10, "El mensaje debe tener al menos 10 caracteres")

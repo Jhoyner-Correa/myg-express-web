@@ -33,7 +33,7 @@ export function Header({ dark = false }: HeaderProps) {
         <div className="flex items-center gap-3">
           <span className="inline-flex items-center gap-2 text-[0.8rem] font-bold text-white">
             <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-            Selva Central del Perú
+            Logística y Envíos en el Perú
           </span>
           <span className={cn("text-[0.8rem] font-medium", dark ? "text-slate-400" : "text-zinc-300")}>
             | &nbsp; Entregas rápidas, seguras y sin que te muevas.

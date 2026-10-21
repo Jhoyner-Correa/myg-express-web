@@ -5,11 +5,11 @@ import { Footer } from "@/components/layout/footer";
 export const metadata: Metadata = {
   title: "Sobre Nosotros",
   description:
-    "Conoce la historia de MyG Express. Desde 2018 conectando la Selva Central del Perú con el resto del país a través de logística y entregas de confianza.",
+    "Conoce la historia de MyG Express. Desde 2018 conectando el Perú a través de logística, paquetería y entregas de confianza.",
   openGraph: {
     title: "Sobre Nosotros | MyG Express",
     description:
-      "Conoce la historia de MyG Express. Desde 2018 conectando la Selva Central del Perú con el resto del país.",
+      "Conoce la historia de MyG Express. Desde 2018 conectando el Perú a través de logística, paquetería y entregas de confianza.",
   },
 };
 

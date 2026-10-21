@@ -14,6 +14,7 @@ const BRANCH_OPTIONS = [
   { value: "La Merced", label: "Sede Principal La Merced" },
   { value: "Satipo", label: "Sede Principal Satipo" },
   { value: "Oxapampa", label: "Sede Principal Oxapampa" },
+  { value: "Huancayo", label: "Sede Principal Huancayo" },
 ] as const;
 
 export function ContactForm() {

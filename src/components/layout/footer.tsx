@@ -13,6 +13,7 @@ const FOOTER_LINKS = {
     { href: "/sedes/la-merced", label: "La Merced" },
     { href: "/sedes/satipo", label: "Satipo" },
     { href: "/sedes/oxapampa", label: "Oxapampa" },
+    { href: "/sedes/huancayo", label: "Huancayo" },
   ],
   Ayuda: [
     { href: "/#contacto", label: "Contacto" },

@@ -23,8 +23,8 @@ const TIMELINE = [
   {
     year: "2018",
     title: "Fundación y Orígenes",
-    metric: "Selva Central",
-    event: "Nace MyG Express con el propósito claro de romper el aislamiento logístico y conectar la Selva Central con el comercio nacional.",
+    metric: "Nacimiento",
+    event: "Nace MyG Express con el propósito claro de ofrecer logística confiable, rápida y segura conectando el comercio nacional.",
     icon: Rocket,
   },
   {
@@ -36,9 +36,9 @@ const TIMELINE = [
   },
   {
     year: "2021",
-    title: "Expansión Regional",
-    metric: "3 Sedes Estratégicas",
-    event: "Apertura de agencias clave en Satipo y Oxapampa, logrando una red de cobertura integral en toda la provincia.",
+    title: "Expansión de Cobertura",
+    metric: "Red de Sedes",
+    event: "Apertura de agencias clave en Satipo y Oxapampa, logrando una red de cobertura integral y conectada.",
     icon: MapPin,
   },
   {
@@ -147,7 +147,7 @@ export function AboutSection() {
             <div className="flex items-center justify-center text-emerald-600">
               <MapPin className="h-5 w-5" />
             </div>
-            <span className="text-xs font-bold text-slate-700">Selva Central 100%</span>
+            <span className="text-xs font-bold text-slate-700">Cobertura 100%</span>
           </motion.div>
         </motion.div>
 
@@ -215,8 +215,8 @@ export function AboutSection() {
         </h2>
 
         <p className="mx-auto mt-3 sm:mt-4 max-w-2xl text-xs sm:text-base leading-relaxed text-slate-600 font-medium">
-          MyG Express nació con el propósito de ofrecer soluciones logísticas ágiles, seguras y cercanas en la Selva Central.
-          Hoy conectamos a personas y negocios con destinos de todo el Perú, brindando atención confiable en La Merced, Satipo y Oxapampa.
+          MyG Express nació con el propósito de ofrecer soluciones logísticas ágiles, seguras y confiables.
+          Hoy conectamos a personas y negocios con destinos de todo el Perú, brindando atención de primer nivel en Huancayo, La Merced, Satipo y Oxapampa.
         </p>
       </motion.div>
 
@@ -241,7 +241,7 @@ export function AboutSection() {
             <div className="flex items-start gap-2.5">
               <CustomCheck className="h-4.5 w-4.5" colorClass="text-emerald-400" />
               <p>
-                Ser el Courier preferido en Selva Central y Nacional por nuestra <strong className="text-white">innovación, confiabilidad y excelencia</strong>.
+                Ser el Courier preferido a nivel nacional por nuestra <strong className="text-white">innovación, confiabilidad y excelencia</strong>.
               </p>
             </div>
 
@@ -270,7 +270,7 @@ export function AboutSection() {
             <div className="flex items-start gap-2.5">
               <CustomCheck className="h-4.5 w-4.5" colorClass="text-[#2db84b]" />
               <p>
-                Soluciones de transporte en Selva Central y a nivel nacional con altos estándares de <strong className="text-slate-900">seguridad y puntualidad</strong>.
+                Soluciones integrales de transporte y logística a nivel nacional con altos estándares de <strong className="text-slate-900">seguridad y puntualidad</strong>.
               </p>
             </div>
 
@@ -313,7 +313,7 @@ export function AboutSection() {
             <div className="flex items-start gap-3.5 transition-transform duration-200 hover:translate-x-1">
               <CustomCheck className="h-5 w-5" colorClass="text-emerald-600 group-hover:text-emerald-500" />
               <p className="text-base leading-relaxed text-muted-foreground">
-                Ser la empresa de Courier preferida a nivel Selva Central y Nacional por nuestra{" "}
+                Ser la empresa de Courier y logística preferida a nivel nacional por nuestra{" "}
                 <strong className="text-foreground">innovación, confiabilidad y excelencia</strong> en el servicio,
                 expandiendo nuestra red para conectar cada rincón con eficiencia y sostenibilidad.
               </p>
@@ -349,7 +349,7 @@ export function AboutSection() {
             <div className="flex items-start gap-3.5 transition-transform duration-200 hover:translate-x-1">
               <CustomCheck className="h-5 w-5" colorClass="text-emerald-600 group-hover:text-emerald-500" />
               <p className="text-base leading-relaxed text-muted-foreground">
-                Brindar soluciones de transporte y envíos en la Selva Central y a nivel nacional con altos estándares de{" "}
+                Brindar soluciones de transporte y logística a nivel nacional con altos estándares de{" "}
                 <strong className="text-foreground">seguridad y puntualidad</strong>,
                 garantizando que cada paquete llegue a su destino de forma óptima y convirtiéndonos en aliados estratégicos
                 para el crecimiento de nuestros clientes.
@@ -479,7 +479,7 @@ export function AboutSection() {
             Nuestra <span className="text-[#2db84b]">Historia</span>
           </h3>
           <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-slate-600 font-medium">
-            El camino recorrido construyendo la red logística de mayor confianza en la Selva Central del Perú.
+            El camino recorrido construyendo una red logística de confianza conectando ciudades y personas en todo el Perú.
           </p>
         </div>
 

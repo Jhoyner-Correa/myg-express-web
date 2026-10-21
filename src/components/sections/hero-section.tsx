@@ -57,7 +57,7 @@ export function HeroSection({
         <div className="relative h-full w-full flex items-start justify-end">
           <Image
             src="/assets/hero-bg-speed.jpg"
-            alt="Almacén de Logística MyG Express Selva Central 8K Master"
+            alt="Almacén de Logística y Envíos MyG Express Perú"
             fill
             sizes="100vw"
             quality={70}
@@ -88,7 +88,7 @@ export function HeroSection({
         <div className="relative h-full w-full flex items-center justify-end">
           <Image
             src="/assets/hero-bg-speed.jpg"
-            alt="Almacén de Logística MyG Express Selva Central 8K Master"
+            alt="Almacén de Logística y Envíos MyG Express Perú"
             fill
             sizes="(max-width: 768px) 100vw, 73vw"
             quality={70}
@@ -131,7 +131,7 @@ export function HeroSection({
               >
                 <PingDot />
                 <span className="font-mono text-[0.58rem] font-extrabold uppercase tracking-wider text-slate-800">
-                  SELVA CENTRAL DEL PERÚ
+                  LOGÍSTICA & ENTREGAS EN EL PERÚ
                 </span>
               </motion.div>
 
@@ -236,7 +236,7 @@ export function HeroSection({
             >
               <PingDot />
               <span className="font-mono text-[0.65rem] font-extrabold uppercase tracking-[0.15em] text-foreground">
-                SELVA CENTRAL DEL PERÚ
+                LOGÍSTICA & ENTREGAS A NIVEL NACIONAL
               </span>
             </motion.div>
 

@@ -236,7 +236,7 @@ export function TestimonialsSection() {
             <span className="text-sm font-extrabold text-foreground">4,9/5</span>
             <span className="h-3.5 w-px bg-border" />
             <span className="text-sm font-medium text-muted-foreground">
-              +250 clientes felices en la Selva Central
+              +250 clientes felices y satisfechos
             </span>
           </motion.div>
 

@@ -30,11 +30,11 @@ export const SITE = {
   name: "MyG Express",
   tagline: "Logística y Entregas de Confianza",
   description:
-    "Recibimos tus compras online y las entregamos directamente en tu casa. Servicio de logística y entregas en la Selva Central del Perú.",
+    "Recibimos tus compras online y las entregamos directamente en tu casa. Soluciones de logística, paquetería y envíos a nivel nacional.",
   url: "https://myg-express.com",
   appUrl: "https://app.myg-express.com",
   locale: "es_PE",
-  region: "Selva Central del Perú",
+  region: "Perú",
   phone: "+51 986 536 376",
   email: "mygexpress30@gmail.com",
   whatsapp: "51986536376",
@@ -128,6 +128,30 @@ export const BRANCHES: readonly Branch[] = [
     ],
     googleMapsUrl: "https://www.google.com/maps?q=-10.5751774,-75.4004607&z=17&hl=es",
   },
+  {
+    id: 4,
+    slug: "huancayo",
+    name: "Sede Principal Huancayo",
+    region: "Huancayo · Junín",
+    address: "Huancayo Centro",
+    phone: "+51 986 536 379",
+    whatsapp: "51986536379",
+    hours: "Lun-Vie: 9:00am - 1:00pm / 3:00pm - 7:00pm · Sáb: 9:00am - 5:00pm",
+    hoursWeekdays: "Lun-Vie: 9:00 am - 1:00 pm / 3:00 pm - 7:00 pm",
+    hoursSaturday: "Sábados: 9:00 am - 5:00 pm",
+    image: "/assets/sede-huancayo.jpg",
+    localImage: "/assets/local-huancayo.jpg",
+    coords: { lat: -12.06513, lng: -75.20486 },
+    description: "Centro logístico y agencia principal en Huancayo, facilitando la recepción y entrega de compras online y encomiendas en todo el valle del Mantaro y rutas conectadas.",
+    manager: "Atención al Cliente - Huancayo",
+    subBranches: [
+      { name: "Agencia El Tambo", type: "Agencia MyG Express", address: "Av. Mariscal Castilla", status: "Punto Activo" },
+      { name: "Punto Chilca", type: "Punto de Envío y Recojo", address: "Av. 9 de Diciembre", status: "Punto Activo" },
+      { name: "Punto Jauja", type: "Punto de Recepción", address: "Jr. Junín", status: "Punto Activo" },
+      { name: "Punto Concepción", type: "Punto Autorizado", address: "Av. Ramón Castilla", status: "Punto Activo" },
+    ],
+    googleMapsUrl: "https://www.google.com/maps?q=-12.06513,-75.20486&z=17&hl=es",
+  },
 ];
 
 export const SERVICES = [
@@ -181,10 +205,10 @@ export const WHY_US = [
   },
   {
     icon: "mapPin",
-    stat: "3",
+    stat: "4",
     label: "Sedes Estratégicas",
     description:
-      "Cubrimos La Merced, Satipo y Oxapampa para llegar a cada rincón de la Selva Central.",
+      "Presencia en Huancayo, La Merced, Satipo y Oxapampa para conectar nuestras agencias y entregas a nivel nacional.",
   },
 ] as const;
 

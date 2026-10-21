@@ -27,17 +27,17 @@ function MobileBranchesCarousel() {
       {/* ── MOBILE SECTION HEADING (EXACT MATCH TO USER REFERENCE MOCKUP) ── */}
       <div className="flex flex-col items-center text-center px-4 mb-2">
         <span className="text-[0.68rem] font-extrabold uppercase tracking-[0.2em] text-[#2db84b] mb-1">
-          PRESENCIA REGIONAL
+          COBERTURA & PRESENCIA
         </span>
         <h2
           style={{ fontFamily: "'Impact', 'Anton', 'Bebas Neue', sans-serif" }}
           className="text-[2.6rem] font-black leading-[0.88] uppercase tracking-[-0.01em] text-slate-950 mb-2"
         >
           NUESTRAS<br />
-          <span className="text-[#2db84b]">3 SEDES</span>
+          <span className="text-[#2db84b]">4 SEDES</span>
         </h2>
         <p className="text-[0.82rem] font-normal leading-relaxed text-slate-500 max-w-[320px]">
-          Estratégicamente ubicadas en la Selva Central del Perú para garantizar entregas rápidas y seguras en toda la región.
+          Centros logísticos estratégicamente ubicados para garantizar entregas rápidas y seguras en todo el país.
         </p>
       </div>
 
@@ -167,7 +167,7 @@ function MobileBranchesCarousel() {
       <div className="mx-auto mt-6 flex flex-col items-center justify-center gap-3 text-xs font-semibold text-slate-600 px-4">
         <div className="flex items-center gap-2.5">
           <Building2 className="h-4 w-4 text-[#0E8F45] flex-shrink-0" />
-          <span>3 Sedes Principales & Red de Puntos</span>
+          <span>4 Sedes Principales & Red de Puntos</span>
         </div>
         <div className="flex items-center gap-2.5">
           <PackageCheck className="h-4 w-4 text-amber-500 flex-shrink-0" />
@@ -314,13 +314,13 @@ export function BranchesSection() {
       {/* ── DESKTOP / PC VIEW (100% INTACT & UNTOUCHED) ── */}
       <div className="hidden md:block w-full">
         <SectionHeading
-          tag="Presencia Regional"
+          tag="Cobertura & Presencia"
           title="Nuestras"
-          highlight="3 Sedes"
-          description="Estratégicamente ubicadas en la Selva Central del Perú para garantizar entregas rápidas y seguras en toda la región."
+          highlight="4 Sedes"
+          description="Centros logísticos estratégicamente ubicados para garantizar entregas rápidas, seguras y conectadas en todo el país."
           center
         />
-        <div className="mx-auto grid max-w-[1760px] gap-6 md:grid-cols-3 md:gap-6 lg:gap-8 px-2 sm:px-4">
+        <div className="mx-auto grid max-w-[1760px] gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-6 lg:gap-8 px-2 sm:px-4">
           {BRANCHES.map((branch, i) => (
             <BranchCard key={branch.id} branch={branch} index={i} />
           ))}
@@ -330,7 +330,7 @@ export function BranchesSection() {
         <div className="mx-auto mt-12 flex max-w-4xl flex-wrap items-center justify-center gap-6 text-sm font-medium text-slate-600 px-4">
           <div className="flex items-center gap-2.5">
             <Building2 className="h-4.5 w-4.5 text-[#0E8F45] flex-shrink-0" />
-            <span>3 Sedes Principales & Red de Puntos</span>
+            <span>4 Sedes Principales & Red de Puntos</span>
           </div>
           <span className="h-4 w-px bg-slate-200 hidden sm:inline" />
           <div className="flex items-center gap-2.5">

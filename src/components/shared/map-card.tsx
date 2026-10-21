@@ -82,7 +82,7 @@ export function MapCard() {
         {/* Header: Title + "En línea" Status */}
         <div className="mb-2 flex items-center justify-between px-1">
           <h3 className="text-xs sm:text-base font-extrabold text-slate-900 tracking-tight">
-            Red logística Selva Central
+            Red logística y cobertura
           </h3>
           <div className="flex items-center gap-1.5 text-[0.7rem] sm:text-xs font-semibold text-slate-500">
             <span className="relative flex h-2 w-2">

@@ -34,6 +34,7 @@ const SEDE_NAME: Record<string, string> = {
   'la-merced': "LA MERCED",
   satipo: "SATIPO",
   oxapampa: "OXAPAMPA",
+  huancayo: "HUANCAYO",
 };
 
 const SEDE_TAGLINE: Record<string, string> = {
@@ -42,7 +43,9 @@ const SEDE_TAGLINE: Record<string, string> = {
   satipo:
     "Centro principal de recepción, despacho y distribución de paquetes para la provincia de Satipo y distritos aledaños.",
   oxapampa:
-    "Centro principal de recepción, despacho y distribución de paquetes para toda la Selva Central del Perú.",
+    "Centro principal de recepción, despacho y distribución de paquetes para la provincia de Oxapampa y rutas conectadas.",
+  huancayo:
+    "Centro logístico y agencia principal en Huancayo, facilitando la recepción y entrega de compras online y encomiendas en todo el valle del Mantaro.",
 };
 
 const PILLS = [

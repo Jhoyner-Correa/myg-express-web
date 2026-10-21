@@ -18,6 +18,10 @@ describe("contactSchema", () => {
     expect(contactSchema.safeParse({ ...validContact, branch: "Otra" }).success).toBe(false);
   });
 
+  it("accepts Huancayo as a valid branch", () => {
+    expect(contactSchema.safeParse({ ...validContact, branch: "Huancayo" }).success).toBe(true);
+  });
+
   it("preserves honeypot content so the route can silently discard bots", () => {
     const result = contactSchema.safeParse({ ...validContact, website: "spam.example" });
     expect(result.success && result.data.website).toBe("spam.example");

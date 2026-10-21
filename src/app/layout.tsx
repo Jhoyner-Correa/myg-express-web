@@ -41,7 +41,7 @@ const jsonLd = {
   url: SITE.url,
   telephone: SITE.phone,
   email: SITE.email,
-  areaServed: "Selva Central del Perú",
+  areaServed: "Perú",
   address: {
     "@type": "PostalAddress",
     addressLocality: "La Merced",
@@ -66,8 +66,11 @@ export const metadata: Metadata = {
   description: SITE.description,
   keywords: [
     "logística",
+    "courier",
     "entregas",
-    "Selva Central",
+    "envíos a nivel nacional",
+    "encomiendas",
+    "Huancayo",
     "La Merced",
     "Satipo",
     "Oxapampa",
